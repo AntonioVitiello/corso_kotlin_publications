@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Publications</string>
+    <string name="content_description">Publications</string>
+    <string name="generic_network_error_message">Errore di rete, riprova più tardi.</string>
+    <string name="user_id">ID Utente: %s</string>
+    <string name="post_date">Data di pubblicazione: %s</string>
+    <string name="rest_list_label">rest-list</string>
+    <string name="rest_filters_label">rest-filters</string>
+    <string name="filter">Filtro</string>
+
+</resources>
