@@ -3,7 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp">
 
     <TextView
         android:id="@+id/titleText"
@@ -65,7 +67,7 @@
         android:layout_height="6dp"
         android:layout_marginTop="40dp"
         android:background="@mipmap/ic_launcher"
-        app:layout_constraintTop_toBottomOf="@id/descriptionText"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/descriptionText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

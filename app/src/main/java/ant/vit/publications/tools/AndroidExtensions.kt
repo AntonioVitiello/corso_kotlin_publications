@@ -2,11 +2,9 @@ package ant.vit.publications.tools
 
 import android.util.Log
 import android.widget.ImageView
-import androidx.lifecycle.MutableLiveData
 import ant.vit.publications.R
 import com.squareup.picasso.Callback
 import com.squareup.picasso.Picasso
-import io.reactivex.Single
 import java.text.ParseException
 import java.text.SimpleDateFormat
 import java.util.*
@@ -44,4 +42,7 @@ fun ImageView.loadImage(imageUrl: String?) {
         })
 }
 
+fun Int.isPair(): Boolean {
+    return this % 2 == 0
+}
 

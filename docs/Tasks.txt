@@ -1,23 +1,5 @@
-Description
------------
-Task 1:
-Write a simple app that performs a GET request on this endpoint:
-http://www.mocky.io/v2/59f2e79c2f0000ae29542931
-The result should be used to display a list of posts to the user, with image, title, published date and description.
-
-Task 2:
-Add a button in the toolbar that acts as a toggle.
-When the toggle is disabled (the default state) all posts should be shown,
-when it is enabled (after a tap) the list should only show the posts having user_id set to 1 and sorted by descending published_at.
-Tapping on the button again will return it to its default state.
-
 Attività 1:
 Scrivi una semplice app che esegua una richiesta GET su questo endpoint:
 http://www.mocky.io/v2/59f2e79c2f0000ae29542931
+(vedi \docs\dummy_rest.json)
 Il risultato dovrebbe essere utilizzato per visualizzare un elenco di post all'utente, con immagine, titolo, data di pubblicazione e descrizione.
-
-Attività 2:
-Aggiungi un pulsante nella barra degli strumenti che funge da interruttore.
-Quando l'interruttore è disabilitato (lo stato predefinito) dovrebbero essere visualizzati tutti i post,
-quando è abilitato (dopo un tocco) l'elenco dovrebbe mostrare solo i post con user_id impostato a 1 e ordinati per ordine discendente published_at.
-Toccando di nuovo il pulsante verrà ripristinato lo stato predefinito.
